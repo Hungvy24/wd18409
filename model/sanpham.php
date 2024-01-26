@@ -30,7 +30,7 @@
         $sql="select * from sanpham where 1";
         if($kyw!=""){
             // nếu như có từ giống như kyw này sẽ show ra
-            $sql.=" and name_sanpham like '%".$kyw."%'";
+            $sql.=" and name like '%".$kyw."%'";
 
         }
 
